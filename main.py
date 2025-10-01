@@ -170,7 +170,7 @@ def main():
 
     ax.set_title("Эволюция функции приспособленности для различных операторов", fontsize=14)
     ax.set_xlabel("Поколение")
-    ax.set_ylabel("Приспособленность")
+    ax.set_ylabel("Приспособленность ")
     ax.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
     ax.grid(True, alpha=0.3)
     plt.tight_layout()
